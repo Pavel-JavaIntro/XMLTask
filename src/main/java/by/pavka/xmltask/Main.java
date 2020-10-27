@@ -24,6 +24,5 @@ public class Main {
         AbstractStudentsBuilder staxBuilder = sFactory.createStudentBuilder(STAX);
         staxBuilder.buildSetStudents(FILE);
         System.out.println(staxBuilder.getStudents());
-
     }
 }
