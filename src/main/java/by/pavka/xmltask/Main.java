@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
         StudentBuilderFactory sFactory = new StudentBuilderFactory();
 
-
         AbstractStudentsBuilder domBuilder = sFactory.createStudentBuilder(DOM);
         domBuilder.buildSetStudents(FILE);
         System.out.println(domBuilder.getStudents());
